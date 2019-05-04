@@ -20,7 +20,4 @@ def createDataSet():
     labels = ['A','A','B','B']
     return group, labels
 
-dataSet,labels = createDataSet()
-inX = [1.0,1.2]
-k = 4
-print knn_classify(inX,dataSet,labels,k)       
+    
